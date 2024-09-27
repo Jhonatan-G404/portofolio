@@ -1,0 +1,45 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap");
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* font */
+
+/* body */
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  color: #343a40;
+}
+
+body {
+  overflow-y: hidden;
+}
+
+.active {
+  border-bottom: 2px solid white !important;
+}
+
+.profile-image {
+  border-radius: 49% 51% 51% 49% / 33% 35% 65% 67%;
+  border: 3px solid #343a40;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); /* Contoh shadow */
+}
+
+/* body */
