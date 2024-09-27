@@ -28,10 +28,6 @@ body {
   color: #343a40;
 }
 
-body {
-  overflow-y: hidden;
-}
-
 .active {
   border-bottom: 2px solid white !important;
 }
@@ -42,4 +38,11 @@ body {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); /* Contoh shadow */
 }
 
+.jumbotron.about {
+  background-color: #a8a8a81b;
+}
+
+.card-skill {
+  gap: 5rem;
+}
 /* body */
