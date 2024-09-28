@@ -38,8 +38,9 @@ body {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); /* Contoh shadow */
 }
 
-.jumbotron.about {
+.jumbotron.background {
   background-color: #a8a8a81b;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.19); /* Contoh shadow */
 }
 
 .card-skill {
@@ -55,4 +56,19 @@ body {
 .ph-star-four {
   color: #fdb55e;
 }
+
+.form-control:focus {
+  box-shadow: 0 0 2px 2px #a8a8a8;
+}
+
+a .card {
+  border: #8f8f8f 1px solid;
+  color: #6b6b6b;
+}
+
+a .card:hover {
+  border: #fdb55e 1px solid;
+  color: #fdb55e;
+}
+
 /* body */
