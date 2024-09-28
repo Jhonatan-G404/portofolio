@@ -28,8 +28,8 @@ body {
   color: #343a40;
 }
 
-.active {
-  border-bottom: 2px solid white !important;
+.active.light {
+  color: white !important;
 }
 
 .profile-image {
@@ -69,6 +69,34 @@ a .card {
 a .card:hover {
   border: #fdb55e 1px solid;
   color: #fdb55e;
+}
+
+.skill-container {
+  display: flex;
+  overflow: hidden;
+}
+
+.skill {
+  display: flex;
+  flex-shrink: 0;
+  gap: 3rem;
+  padding: 1rem;
+  animation: infinity-skill 8s linear infinite;
+}
+
+.active.about {
+  background-color: #fdb55e25 !important;
+  color: #ffa435 !important;
+  font-weight: 600;
+}
+
+@keyframes infinity-skill {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
 
 /* body */
