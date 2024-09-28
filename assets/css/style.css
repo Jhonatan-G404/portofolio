@@ -43,6 +43,16 @@ body {
 }
 
 .card-skill {
-  gap: 5rem;
+  border: 2px solid #a8a8a8 !important;
+  filter: grayscale(1);
+}
+
+.card-skill:hover {
+  border: 2px solid #fdb55e !important;
+  filter: grayscale(0);
+}
+
+.ph-star-four {
+  color: #fdb55e;
 }
 /* body */
