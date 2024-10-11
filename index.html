@@ -9,6 +9,7 @@
     <!-- css -->
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <!-- navbar -->
@@ -78,7 +79,12 @@
             <div
               class="jumbotron bg-transparent vh-100 d-flex justify-content-center align-items-center"
             >
-              <div class="card border-0" style="width: 100rem">
+              <div
+                class="card border-0"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+                style="width: 100rem"
+              >
                 <div class="card-body">
                   <div class="row">
                     <div class="col-lg-2">
@@ -105,6 +111,8 @@
                       class="col-lg-4 d-flex flex-column align-items-center mt-lg-0 mt-3"
                     >
                       <img
+                        data-aos="fade-up"
+                        data-aos-duration="1500"
                         class="profile-image"
                         src="assets/img/profile-image.webp"
                         alt="profile-image"
@@ -129,6 +137,11 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="assets/js/script.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

@@ -9,6 +9,7 @@
     <!-- css -->
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <!-- navbar -->
@@ -83,6 +84,9 @@
               class="col-lg-4 d-flex justify-content-center align-items-center"
             >
               <img
+                data-aos="fade-right"
+                data-aos-offset="500"
+                data-aos-easing="ease-in-sine"
                 class="profile-image"
                 src="../img/profile-image.webp"
                 alt="profile-image"
@@ -90,7 +94,12 @@
                 height="200"
               />
             </div>
-            <div class="col-lg-7 mt-5 mt-lg-0">
+            <div
+              class="col-lg-7 mt-5 mt-lg-0"
+              data-aos="fade-left"
+              data-aos-offset="500"
+              data-aos-easing="ease-in-sine"
+            >
               <ul
                 class="nav nav-pills justify-content-center justify-content-lg-start mb-5 mb-lg-4"
                 id="pills-tab"
@@ -301,8 +310,11 @@
     <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <script src="../js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script>
+      AOS.init();
+
       const skill = document.querySelector(".skill").cloneNode(true);
       document.querySelector(".skill-container").appendChild(skill);
     </script>
