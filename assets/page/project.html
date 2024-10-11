@@ -9,6 +9,7 @@
     <!-- css -->
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <!-- navbar -->
@@ -128,7 +129,11 @@
               role="tabpanel"
               aria-labelledby="pills-profile-tab"
             >
-              <div class="row justify-content-center align-items-center">
+              <div
+                class="row justify-content-center align-items-center"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+              >
                 <div class="col-lg-3">
                   <div class="card shadow-sm p-3">
                     <img
@@ -178,5 +183,10 @@
     <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <script src="../js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
