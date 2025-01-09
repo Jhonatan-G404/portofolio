@@ -16,7 +16,9 @@
     <nav
       class="navbar navbar-expand-sm navbar-dark text-light bg-dark p-3 fixed-top"
     >
-      <a class="navbar-brand poppins-bold" href="../../index.html">JHONATAN</a>
+      <a class="navbar-brand poppins-bold ml-3" href="../../index.html"
+        >JHONATAN</a
+      >
       <button
         class="navbar-toggler"
         type="button"
@@ -32,7 +34,7 @@
         class="collapse navbar-collapse justify-content-center"
         id="navbarNav"
       >
-        <ul class="navbar-nav text-center" style="gap: 10px">
+        <ul class="navbar-nav ml-3 ml-sm-0" style="gap: 10px">
           <li class="nav-item">
             <a class="nav-link" href="../../index.html">Home</a>
           </li>
@@ -57,10 +59,10 @@
           <li class="nav-item">
             <a
               href="https://github.com/Jhonatan-G404"
-              class="nav-link d-sm-none d-block d-md-none d-flex align-items-center justify-content-center"
+              class="nav-link d-sm-none d-block d-md-none d-flex align-items-center"
               target="_blank"
-              ><i class="ph-fill ph-github-logo h4"></i>
-              <div class="d-block d-sm-none ml-2 mb-1">Github</div>
+            >
+              <div class="d-block d-sm-none mb-1">Github</div>
             </a>
           </li>
         </ul>
@@ -84,9 +86,6 @@
               class="col-lg-4 d-flex justify-content-center align-items-center"
             >
               <img
-                data-aos="fade-right"
-                data-aos-offset="500"
-                data-aos-easing="ease-in-sine"
                 class="profile-image"
                 src="../img/profile-image.webp"
                 alt="profile-image"
@@ -94,12 +93,7 @@
                 height="200"
               />
             </div>
-            <div
-              class="col-lg-7 mt-5 mt-lg-0"
-              data-aos="fade-left"
-              data-aos-offset="500"
-              data-aos-easing="ease-in-sine"
-            >
+            <div class="col-lg-7 mt-5 mt-lg-0">
               <ul
                 class="nav nav-pills justify-content-center justify-content-lg-start mb-5 mb-lg-4"
                 id="pills-tab"
@@ -310,11 +304,8 @@
     <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <script src="../js/script.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script>
-      AOS.init();
-
       const skill = document.querySelector(".skill").cloneNode(true);
       document.querySelector(".skill-container").appendChild(skill);
     </script>
